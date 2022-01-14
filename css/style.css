@@ -37,3 +37,12 @@ body {
 .titile{
     display: inline-block;
 }
+
+/* Main */
+.second-container{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: turquoise;
+}
