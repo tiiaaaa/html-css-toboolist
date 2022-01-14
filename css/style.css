@@ -16,3 +16,24 @@ body {
     border-bottom-right-radius: 1%;
     border-bottom-left-radius: 1%;
 }
+
+/* header */
+.logo-text {
+    height: 100px;
+    background-color: violet;
+}
+
+.immage-container{
+    width: 60px;
+    height: 60px;
+    margin: 10px 10px;
+    /* background-color: tomato; */
+}
+
+#img-logo{
+    width: 100%;
+}
+
+.titile{
+    display: inline-block;
+}
