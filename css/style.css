@@ -18,25 +18,23 @@ body {
 }
 
 /* header */
-.logo-text {
+.title {
     height: 10%;
-    background-color: violet;
+    background-color: white;
 }
 
-.immage-container{
-    width: 60px;
-    height: 60px;
-    margin: 10px 10px;
-    /* background-color: tomato; */
+.main-logo{
+    height: 75px;
+    margin-left: 40px;
+    vertical-align: middle;
 }
 
-#img-logo{
-    width: 100%;
+.logo-text{
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: bold;
 }
 
-.titile{
-    display: inline-block;
-}
 
 /* Main */
 .second-container{
@@ -47,37 +45,39 @@ body {
     background-color: turquoise;
 }
 
-.button{
+/* menu nav */
+nav {
+    height: 80px;
+    background-color: white;
+}
+
+.nav-button {
+    margin-left: 60px;
+}
+
+.button-add-task{
+    width: 100px;
+    background-color: rgb(58, 199, 255);
+}
+
+.button-add-section {
+    width: 120px; 
+    border: 1px solid lightgrey; 
+}
+
+.button-add-task, .button-add-section {
     height: 40px;
     display: inline-block;
-    border: 1px solid lightgrey;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
     border-radius: 5%;
-    /* background-color: blue; */
 }
 
-.first-button{
-    width: 90px;
-    background-color: rgb(95, 231, 255);
+.command-add-task {
+    color: white;
 }
 
-.second-button{
-    width: 120px;
-}
-
-#add{
-    height: 8%;
-    padding-top: 15px;
-    padding-left: 70px;
-    border-bottom: 3px solid lightgrey;
-    background-color: rgb(255, 71, 71);
-}
-
-section{
-    width: 80%;
-    height: 80%;
-    margin: 30px auto;
-}
-
-ul {
-    font-size: 30px;
+.command-add-section{
+    color:lightgrey;
 }
