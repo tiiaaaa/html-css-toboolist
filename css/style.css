@@ -42,7 +42,6 @@ body {
     height: 83%;
     margin: auto;
     margin-top: 50px;
-    background-color: turquoise;
 }
 
 /* menu nav */
@@ -80,4 +79,50 @@ nav {
 
 .command-add-section{
     color:lightgrey;
+}
+
+/* contenitore delle liste */
+.list {
+    /* height: 700px; */
+    padding-top: 50px;
+    padding-left: 90px;
+    background-color: red;
+}
+
+/* contenitore primo punto della lista */
+.list-box {
+    margin-bottom: 50px;
+}
+
+.unordered-list{
+    list-style: url('../img/down-arrow-svgrepo-com.svg');
+
+}
+
+.list-point{
+    font-family: sans-serif;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.list-text {
+    list-style: inside url('../img/check-svgrepo-com.svg');
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.list-button {
+    display: inline-block;
+    width: 85px;
+    height: 35px;
+    padding: 0.2% 1.5%;
+    vertical-align: middle;
+    border-radius: 12%;
+    background-color: rgb(58, 199, 255);
+}
+
+.text-button{
+    font-size: 15px;
+    color: white;
 }
