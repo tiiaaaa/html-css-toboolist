@@ -83,10 +83,8 @@ nav {
 
 /* contenitore delle liste */
 .list {
-    /* height: 700px; */
     padding-top: 50px;
     padding-left: 90px;
-    background-color: red;
 }
 
 /* contenitore primo punto della lista */
@@ -112,17 +110,40 @@ nav {
     margin-top: 10px;
 }
 
-.list-button {
+.list-button, .list-button-goals, .list-button-recruiting, .list-button-mobile, .list-button-website, .list-button-sales {
     display: inline-block;
-    width: 85px;
-    height: 35px;
-    padding: 0.2% 1.5%;
+    padding: 5px 15px 5px 15px;
     vertical-align: middle;
-    border-radius: 12%;
+    border-radius: 10%;
+}
+
+.list-button{
     background-color: rgb(58, 199, 255);
+}
+
+.list-button-goals {
+    background-color: mediumslateblue;
+}
+
+.list-button-recruiting {
+    background-color: lime;
+}
+
+.list-button-mobile {
+    background-color: orange;
+}
+
+.list-button-website {
+    background-color: rgb(177, 88, 162);
+}
+
+.list-button-sales {
+    background-color: limegreen;
 }
 
 .text-button{
     font-size: 15px;
+    vertical-align: middle;
     color: white;
 }
+
