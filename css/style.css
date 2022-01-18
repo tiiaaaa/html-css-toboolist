@@ -4,146 +4,117 @@
     padding: 0;
 }
 
-body {
-    background-color: black;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f8f9;
+}
+
+header{
+    background-color: white;
+    height: 75px;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+
+li{
+    list-style: none;
+    padding: 10px 0;
+    color: #434851;
 }
 
 .container{
-    width: 1500px;
-    height: 1000px;
-    background-color: whitesmoke;
-    margin: 20px auto;
-    border-bottom-right-radius: 1%;
-    border-bottom-left-radius: 1%;
-}
-
-/* header */
-.title {
-    height: 10%;
+    width: 75%;
+    margin: 0 auto;
     background-color: white;
 }
 
-.main-logo{
-    height: 75px;
-    margin-left: 40px;
-    vertical-align: middle;
+.top{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 50px;
+    border-bottom: 2px solid #f6f8f9 ;
 }
 
-.logo-text{
-    font-family: sans-serif;
-    font-size: 60px;
-    font-weight: bold;
+.btn{
+    padding: 7px 14px;
+    border: none;
+    border-radius: 7px;
 }
 
-
-/* Main */
-.second-container{
-    width: 70%;
-    height: 83%;
-    margin: auto;
-    margin-top: 50px;
+.btn-white{
+    border: solid 1px black;
+    color: gray;
 }
 
-/* menu nav */
-nav {
-    height: 80px;
-    background-color: white;
-}
-
-.nav-button {
-    margin-left: 60px;
-}
-
-.button-add-task{
-    width: 100px;
-    background-color: rgb(58, 199, 255);
-}
-
-.button-add-section {
-    width: 120px; 
-    border: 1px solid lightgrey; 
-}
-
-.button-add-task, .button-add-section {
-    height: 40px;
-    display: inline-block;
-    margin-top: 20px;
-    padding-top: 10px;
-    padding-left: 20px;
-    border-radius: 5%;
-}
-
-.command-add-task {
+.btn-blue{
     color: white;
+    border: solid 1px #14aaf5;
 }
 
-.command-add-section{
-    color:lightgrey;
+.tasks{
+    padding: 20px 50px;
 }
 
-/* contenitore delle liste */
-.list {
-    padding-top: 50px;
-    padding-left: 90px;
-}
-
-/* contenitore primo punto della lista */
-.list-box {
-    margin-bottom: 50px;
-}
-
-.unordered-list{
-    list-style: url('../img/down-arrow-svgrepo-com.svg');
-
-}
-
-.list-point{
-    font-family: sans-serif;
-    font-size: 1.7em;
-    font-weight: bold;
-}
-
-.list-text {
-    list-style: inside url('../img/check-svgrepo-com.svg');
-    font-size: 25px;
-    font-weight: normal;
-    margin-top: 10px;
-}
-
-.list-button, .list-button-goals, .list-button-recruiting, .list-button-mobile, .list-button-website, .list-button-sales {
+.circle{
     display: inline-block;
-    padding: 5px 15px 5px 15px;
-    vertical-align: middle;
-    border-radius: 10%;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    border: 1px transparent solid;
+    text-align: center;
+    border-radius: 50%;
+    font-size: .65em;
+    margin-right: .5em;
 }
 
-.list-button{
-    background-color: rgb(58, 199, 255);
+.checked{
+    border-color: rgb(7, 202, 7);
+    color: rgb(7, 202, 7);
 }
 
-.list-button-goals {
-    background-color: mediumslateblue;
+.unchecked{
+    border-color: rgb(220, 0, 0);
+    color: rgb(220, 0, 0);
 }
 
-.list-button-recruiting {
-    background-color: lime;
-}
-
-.list-button-mobile {
-    background-color: orange;
-}
-
-.list-button-website {
-    background-color: rgb(177, 88, 162);
-}
-
-.list-button-sales {
-    background-color: limegreen;
-}
-
-.text-button{
-    font-size: 15px;
-    vertical-align: middle;
+.tag{
+    padding: 6px 12px;
+    border-radius: 10px;
+    font-size: .7em;
     color: white;
+    background-color: grey;
 }
 
+.bg-blue{
+    background-color: #09a9ed;
+}
+
+.bg-orange{
+    background-color: #ff9b00;
+}
+
+.bg-green{
+    background-color: #2cc6ab;
+}
+
+.bg-violet{
+    background-color: #ab5de6;
+}
+
+.bg-lime{
+    background-color: #a3d116;
+}
+
+.bg-pink{
+    background-color: #ec4a9d;
+}
+
+#logo{
+    height: 100%;
+    vertical-align: bottom;
+}
+
+#logo-text{
+    font-size: 2.3em;
+    font-weight: 900;
+}
